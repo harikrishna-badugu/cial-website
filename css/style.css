@@ -1,0 +1,719 @@
+/*reset body browser default styles */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif ,sysstem-ui, Arial;
+    background-image: url(../images/banner-img.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 650px 600px;
+   
+}
+
+.page-width{
+    width:100%;
+    margin: 0 auto;
+}
+.header{
+
+}
+.header .img-logo img{
+    float: left;
+    padding: 5px 0px 0px 10px;
+}
+.header .nav-items{
+    display: flex;
+    padding: 0px 0px 0px 40px;
+
+}
+.header .nav-items ul{
+
+}
+.header .nav-items ul li{
+    display: inline;
+
+}
+.header .nav-items ul li a{
+    text-decoration: none;
+    padding: 1px 0px 0px 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.page-width{
+    width: 100%;
+    margin: 0 auto;
+}
+.main-content{
+
+}
+.section-financial-services{
+    padding:30px 0px 0px 100px;
+
+}
+.section-financial-services .heading{
+    width: 40%;
+
+
+}
+.section-financial-services .heading h1{
+    font-size: 53px;
+    line-height: 76px;
+} 
+.section-financial-services p{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Poppins', sans-serif ,sysstem-ui, Arial;
+   
+}
+.section-financial-services .buttons{
+    display: flex;
+    padding: 70px 0px 0px 0px;
+
+}
+.section-financial-services .button1  button{
+    border: 2px solid #ff7573;
+    border-radius: 25px;
+    background-color: white;
+    padding: 13px 24px 13px 24px;
+
+}
+.section-financial-services .button2{
+    padding: 0px 0px 0px 15px ;
+}
+.section-financial-services .button2  button{
+    border: 2px solid #51b2ff;
+    border-radius: 25px;
+    background-color: white;
+    padding: 13px 24px 13px 24px;
+
+}
+.section-welcome-info{
+    padding: 200px 0px 90px 0px;
+    display: flex;
+}
+.section-welcome-info .bg-img{
+    width: 61%;
+    background-image: url(../images/services-bg.png);
+}    
+.section-welcome-info .bg-img .heading{
+    padding: 44px 0px 0px 0px;
+
+}
+.section-welcome-info .bg-img .heading .hr-red{
+    width: 7%;
+    padding: 9px 0px 0px 220px;
+    margin: 0;
+
+}
+.section-welcome-info .bg-img .heading .hr-red hr{
+    border: 3px solid red;
+    border-radius: 8px;
+
+}
+.section-welcome-info .heading h1{
+    font-size: 30px;
+    padding: 0px 0px 20px 220px;
+    margin: 0;
+}
+.section-welcome-info .bg-img p{
+
+    font-size: 14px;
+    padding: 0px 0px 30px 220px;
+}
+.section-welcome-info .button{
+    padding: 0px 0px 0px 220px;
+
+}
+ .button button{
+    border: 1px solid #51b2ff;
+    border-radius: 25px;
+    background-color: #f7f7f8;
+    padding: 13px 24px 13px 24px;
+    color: #51b2ff;
+}
+.section-welcome-info .rt-img{
+    padding: 64px 0px 0px 20px;
+    width: 39%;
+}
+ .rt-img img{
+    width: 60%;
+    padding: 0px 0px 0px 46px;
+}
+.section-what-we-do{
+    text-align: center;
+    width:  78%;
+    margin: 0 auto;
+
+}
+.section-what-we-do .heading{
+
+}
+.section-what-we-do .heading .hr-red{
+
+}
+.section-what-we-do .heading .hr-red hr{
+    border: 3px solid red;
+    border-radius: 22px;
+    text-align: center;
+    width: 4%;
+
+}
+.section-what-we-do .heading{
+
+}
+.section-what-we-do .heading h1{
+    margin: 0;
+   
+}
+.section-what-we-do p{
+    font-size: 16px;
+    padding: 0px 0px 20px 0px;
+   
+}
+.section-what-we-do .box-models{
+    display: flex;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.section-what-we-do .box-models .box-model{
+    padding: 2%;
+    width: 19%;
+    margin: 1%;
+    background-color: #1b5a8d;
+    color: white;
+    float: left;
+    border: 1px solid;
+    border-radius: 11px;
+}
+.section-what-we-do  .box-models .box-model .img-icon{
+    width: 100%;
+    text-align: center;
+    padding: 12px 0px 11px 0px;
+    margin: 10px 0px 0px 0px;
+}
+.img-icon img{
+
+}
+.section-what-we-do .box-models .box-model h2{
+    text-align: center;
+    font-size: medium;
+   
+}
+.section-what-we-do .box-models .box-model  p{
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+}
+.section-what-we-do .box-models .box-model .button3{
+
+}
+.section-what-we-do .box-models .box-model .button3 button{
+    border: 2px solid white;
+    border-radius: 22px;
+    background-color: #1b5a8d;
+    color: white;
+    padding: 13px 35px 13px 35px;
+  
+}
+.section-what-we-do .box-models .box-model2{
+    padding: 2%;
+    width: 19%;
+    margin: 1%;
+    background-color: #ff5a58;
+    color: white;
+    float: left;
+    border: 1px solid;
+    border-radius: 11px;
+}
+.section-what-we-do  .box-models .box-model2 .img-icon{
+    width: 100%;
+    text-align: center;
+    padding: 12px 0px 11px 0px;
+    margin: 10px 0px 0px 0px;
+}
+.img-icon img{
+
+}
+.section-what-we-do .box-models .box-model2 h2{
+    text-align: center;
+    font-size: medium;
+  
+}
+.section-what-we-do .box-models .box-model2  p{
+    font-size: 13px;
+  
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+}
+.section-what-we-do .box-models .box-model2 .button3{
+
+}
+.section-what-we-do .box-models .box-model2 .button3 button{
+    border: 2px solid white;
+    border-radius: 22px;
+    background-color: #ff5a58;
+    color: white;
+    padding: 13px 35px 13px 35px;
+  
+}
+.section-our-projects{
+    display: flex;
+
+}
+.section-our-projects .project-left{
+    padding: 220px 0px 0px 0px;
+    width: 50%;
+}
+
+.section-our-projects .project-left .heading{
+    padding: 0px 0px 30px 140px;
+}
+.section-our-projects .project-left .heading .hr-red{
+    width: 10%;
+}
+.section-our-projects .project-left .heading hr{
+    border:3px solid red;
+    border-radius: 24px;
+}
+.section-our-projects .project-left .heading h2{
+   margin: 0;
+   font-size: 30px;
+
+}
+.section-our-projects .project-left p{
+    padding: 0px 0px 30px 140px;
+  
+    font-size: 16px;
+    line-height: 22px;
+}
+.section-our-projects .project-left .button4{
+    padding: 0px 0px 0px 132px;
+
+}
+.section-our-projects .project-left .button4 button{
+       border-radius: 22px;
+    border: 1px solid #51b2ff;
+    background-color: white;
+    padding: 16px 38px 15px 49px;
+    color: #51b2ff;
+}
+.section-our-projects .project-left .bg-logo{
+    background-image: url(../images/img-6.png);
+    background-position: left;
+    background-size: 137px 146px;
+    padding: 0px 133px 150px 28px;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 66px;
+}
+.section-our-projects .project-right{
+    margin: 0;
+    padding: 80px 0px 0px 53px;
+    display: flex;
+    width: 50%;
+}
+.section-our-projects .project-right .img-abs{
+    margin: 0;
+    float: left;
+    padding: 0;
+
+}
+.section-our-projects .project-right .img-abs .img-ab{
+    padding: 1%;
+    margin: 1%;
+}
+.img-ab img{
+    width: 237px;
+}
+.section-our-projects .project-right .img-abs .img-ac{
+    padding: 1%;
+    margin: 1%;
+}
+.img-ac img{
+    width: 237px;
+}
+.section-our-projects .project-right .img-ads{
+    margin: 0px 0px 0px 0px;
+    padding: 60px 0px 0px 12px;
+}
+.section-our-projects .project-right .img-ads .img-ad{
+    margin: 1%;
+    padding: 1%;
+}
+.img-ad img{
+    width: 237px;
+}
+.section-our-projects .project-right .img-ads .img-ae{
+    margin: 1%;
+    padding: 1%;
+}
+.img-ae img{
+    width: 237px;
+}
+.section-company-services-info{
+    background-color: #ff5a58;
+    margin: 73px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+.section-company-services-info .companys-1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.section-company-services-info .companys-1 .company-1{
+    width: 21%;
+    text-align: center;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+.section-company-services-info .companys-1 .company-1 .s-img{
+
+}
+.s-img img{
+
+}
+.section-company-services-info .companys-1 .company-1 .num h1{
+    font-size: 32px;
+}
+.section-company-services-info .companys-1 .company-1 .heading h2{
+    font-size: 20px;
+}
+.section-company-team{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.section-company-team .section-2{
+    text-align: center;
+    padding:80px 0px 0px 0px;
+
+}
+.section-company-team .section-2 .heading  .hr-red{
+
+}
+.section-company-team .section-2 .heading .hr-red hr{
+    text-align: center;
+    border: 3px solid red;
+    width: 5%;
+    border-radius: 22px;
+
+}
+.section-company-team .section-2 .heading{
+
+}
+.section-company-team .section-2 .heading h1{
+     margin: 0;
+     font-size: 30px;
+}
+.section-company-team .section-2 p{
+    line-height: 20px;
+    font-size: 16px;
+  
+}
+.section-company-team  .teams-3{
+    display: flex;
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+}
+
+.section-company-team  .teams-3 .team-3{
+    width: 25%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+    float: left;
+}
+.section-company-team  .teams-3 .team-3 .p-img{
+
+}
+.p-img img{
+    width:  100%;
+
+}
+.section-company-team  .teams-3 .team-3 .heading h3{
+    text-align: center;
+    font-size: 16px;
+
+}
+.section-company-team .teams-3 .team-3 .icon{
+    text-decoration: none;
+    margin: 0px 0px 21px 0px;
+    padding: 0px 0px 6px 0px;
+}
+.section-company-team  .teams-3 .team-3 .icon a{
+    text-decoration: none;
+    font-size: 16px;
+    color: red;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.section-company-team .teams-3 .team-3 .social-icons{
+    font-size: 10px;
+}
+.section-company-team .teams-3 .team-3 .social-icons ul{
+    padding: 0px 0px 0px 0px;
+
+}
+.section-company-team .teams-3 .team-3 .social-icons ul li{
+    display: inline;
+}
+.section-company-team .teams-3 .team-3 .social-icons ul li a{
+    text-decoration: none;
+}
+.section-customer-reviews{
+    text-align: center;
+    padding: 90px 0px 0px 0px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.section-customer-reviews .heading .hr-red{
+    padding: 0;
+    text-align: center;
+    margin: 0px;
+}
+.section-customer-reviews .heading .hr-red hr{
+    text-align: center;
+    border: 3px solid red;
+    width: 4%;
+    border-radius: 22px;
+}
+.section-customer-reviews .heading{
+
+}
+.section-customer-reviews .heading h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.section-customer-reviews .customer-review{
+    display: flex;
+    text-align: center;
+    padding: 90px 0px 0px 355px;
+}
+.section-customer-reviews .customer-review .customer-bg1{
+    background-image: url(../images/round-1.png);
+    background-repeat: no-repeat;
+    padding: 33px;
+    background-position: center;
+}
+.section-customer-reviews .customer-review .customer-img{
+
+}
+.customer-img img{
+    width: 80%;
+}
+.section-customer-reviews .customer-review .customer-bg2{
+    background-image: url(../images/round-2.png);
+    background-repeat: no-repeat;
+    padding: 61px;
+    background-position: center;
+}
+.section-customer-reviews p{
+     font-size: 16px;
+  
+    padding: 20px 0px 20px 0px;
+}
+.section-customer-reviews .hrs-reds{
+    text-align: center;
+    display: flex;
+    padding: 0px 0px 60px 20px;
+}
+.section-customer-reviews .hrs-reds .hre-red{
+    width: 4%;
+    margin: 0px 0px 0px 115px;
+    padding: 0px 0px 0px 300px;
+    text-align: center;
+}   
+.section-customer-reviews .hrs-reds .hre-red hr{
+    width: 100%;
+    border: 6px solid red;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.section-customer-reviews .hrs-reds .hra-red{
+    width: 4%;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 9px;
+}
+.section-customer-reviews .hrs-reds .hra-red hr{
+    border-radius: 5px;
+    width: 100%;
+    border: 6px solid red;   
+}
+.section-customer-reviews .hrs-reds .hrd-blu{
+    width: 4%;
+    padding: 0px 0px 0px 14px;
+    margin: 0px 0px 0px 5px;
+}
+.section-customer-reviews .hrs-reds .hrd-blu hr{
+    width: 100%;
+    border: 6px solid blue;
+    border-radius: 5px;
+    
+}
+.footer{
+    background-color: black;
+    color:white;
+    height: 500px;
+ 
+}
+.footer-page-width{
+    width:  100%;
+    margin: 0 auto;
+}
+.footer .footer-top{
+    
+    border-bottom: 1px solid #ccc;
+    padding: 0px 0px 40px 0px;
+}
+.footer-top .footer-sections{
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0px 0px 0px;
+}
+
+
+.footer-sections .about-information {
+    width: 23%;
+    margin: 1%;
+    padding: 1%;
+}
+.footer-sections .about-information h4{
+    font-size: 20px;
+}
+.footer-sections .about-information .logo-icons{
+    
+}
+.footer-sections .about-information .logo-icons .logo-icon {
+    display: flex;
+    width: 600px;
+      
+}
+.footer-sections .about-information .logo-icons .logo-icon .logo-img{
+    padding: 19px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 5%;
+
+}
+.footer-sections .about-information .logo-icons .logo-icon .logo-img .logo-img img{
+    width: 60;
+    padding: 0px 0px 0px 0px;
+}
+.footer-sections .about-information .logo-icons .logo-icon p{
+    font-size: 15px;
+  
+}
+.footer-sections .about-financial{
+    width: 23%;
+    margin: 1%;
+    padding: 1%
+
+}
+.footer-sections .about-financial h4{
+  
+    font-size: 20px;
+
+}
+.footer-sections .about-financial p{
+  
+    font-size: 15px;
+    padding: 11px 0px 0px 0px;
+    line-height: 35px;
+}
+.footer-sections .instagram{
+    width: 23%;
+    margin: 1%;
+    padding: 1%
+}
+.footer-sections .instagram h4{
+  
+    font-size: 20px;
+}
+.footer-sections .instagram .in-imgs{
+    width: 65%;
+    padding: 20px 0px 0px 0px;
+}
+.footer-sections .instagram .in-imgs .in-img{
+    width: 41%;
+    /* margin: 2%; */
+    padding: 2%;
+    float: left;
+}
+
+.in-img img{
+   width: 100%;
+}
+.footer-sections .newsletter{
+    width: 23%;
+    margin: 1%;
+    padding: 1%
+}
+.footer-sections .newsletter h4{
+  
+    font-size: 20px;
+}.footer-sections .newsletter .ems{
+    font-size: 15px;
+  
+    display: flex;
+}
+.footer-sections .newsletter .ems p{
+    border: 2px solid white;
+    background-color: white;
+    color: #757575;
+    padding: 5px 60px 6px 18px;
+    box-shadow: 2px 2px 2px 1px;
+}
+.footer-sections .newsletter .sub{
+    display: flex;
+}
+.footer-sections .newsletter .sub p{
+    background-color: #ff5a58;
+    font-size: 15px;
+    border: 2px solid #ff5a58;
+    padding: 8px 28px 7px 28px;
+
+}
+.footer-sections .newsletter .icons-img{
+    font-size: 40px;
+    width: 100%;
+
+}
+.footer-sections .newsletter .icons-img img{
+
+}
+.footer .footer-bottom{
+
+}
+.footer-bottom p{
+    text-align: center;
+    font-size: 15px;
+    color:  white;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}

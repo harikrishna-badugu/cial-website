@@ -1,0 +1,112 @@
+/* Extra small devices (phones) */
+@media screen and (min-width: 320px) and (max-width: 599px) {
+    body{
+        background-image: none;
+      }
+      .section-financial-services .heading{
+        width: 100%;
+    }
+    .section-welcome-info .bg-img{
+      width: 100%;
+      background-image: url(../images/services-bg.png);
+    } 
+    .section-welcome-info .rt-img{
+      padding: 64px 0px 0px 20px;
+      width: 0%;
+    } 
+    
+}
+/* Medium devices (landscape tablets) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    body{
+        background-image: none;
+    
+  }
+    .section-financial-services .heading{
+      width: 100%;
+  }
+  .section-welcome-info .bg-img{
+    width: 100%;
+    background-image: url(../images/services-bg.png);
+  } 
+  .section-welcome-info .rt-img{
+    padding: 64px 0px 0px 20px;
+    width: 0%;
+  }  
+  .section-what-we-do .box-models .box-model{
+    padding: 2%;
+    width: 50%;
+    margin: 1%;
+    background-color: #1b5a8d;
+    color: white;
+    float: left;
+    border: 1px solid;
+    border-radius: 11px;
+  } 
+  .section-what-we-do .box-models .box-model2{
+    padding: 2%;
+    width:50%;
+    margin: 1%;
+    background-color: #ff5a58;
+    color: white;
+    float: left;
+    border: 1px solid;
+    border-radius: 11px;
+  }
+  .section-company-team  .teams-3 .team-3{
+    width: 50%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+    float: left;
+    flex-direction: column;
+  }
+  .footer-sections .about-information {
+    width: 46%;
+    margin: 1%;
+    padding: 1%;
+  }
+  .footer-sections .about-financial{
+    width: 46%;
+    margin: 1%;
+    padding: 1%
+
+  }
+  .footer-sections .instagram{
+    width: 0%;
+    margin: 1%;
+    padding: 1%
+  }
+  .footer-sections .newsletter{
+    width: 0%;
+    margin: 1%;
+    padding: 1%
+  }
+}
+/* Laptops or desktops*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body{
+    background-image: none;
+  }
+  .section-financial-services .heading{
+    width: 100%;
+  }
+  .section-company-team  .teams-3 .team-3{
+    width: 75%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+    float: left;
+}
+ }
+/* Large laptops and desktops */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .section-company-team  .teams-3 .team-3{
+    width: 25%;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+    float: left;
+}
+	
+} 
